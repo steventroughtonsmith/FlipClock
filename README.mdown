@@ -1,0 +1,20 @@
+FlipClock
+=============
+
+
+SCREENSHOT
+=============
+
+[![](http://1.bp.blogspot.com/-RXq7PKrAX9g/T5WEBhnX3PI/AAAAAAAAAsM/BYfRil87Ygk/s1600/Screen%2BShot%2B2012-04-23%2Bat%2B17.31.47.png)](http://1.bp.blogspot.com/-RXq7PKrAX9g/T5WEBhnX3PI/AAAAAAAAAsM/BYfRil87Ygk/s1600/Screen%2BShot%2B2012-04-23%2Bat%2B17.31.47.png)
+
+
+WHAT IS THIS?
+=============
+
+This is a really quick and simplistic implementation of a flip clock for iOS. There are a thousand better ways to do this, but few are documented online though so I thought this might be a decent starting point or helpful for prototyping. Feel free to let me know if you use it for anything!
+
+
+LICENSE
+=============
+
+BSD (or whatever). Do whatever you like with it, it's nothing special.

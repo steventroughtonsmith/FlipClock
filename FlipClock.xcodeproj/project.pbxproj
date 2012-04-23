@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B06665EC154591C0003D2CD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06665EB154591C0003D2CD8 /* UIKit.framework */; };
+		B06665EE154591C0003D2CD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06665ED154591C0003D2CD8 /* Foundation.framework */; };
+		B06665F0154591C0003D2CD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06665EF154591C0003D2CD8 /* CoreGraphics.framework */; };
+		B06665F6154591C0003D2CD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B06665F4154591C0003D2CD8 /* InfoPlist.strings */; };
+		B06665F8154591C0003D2CD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06665F7154591C0003D2CD8 /* main.m */; };
+		B06665FC154591C0003D2CD8 /* SFCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B06665FB154591C0003D2CD8 /* SFCAppDelegate.m */; };
+		B06665FF154591C0003D2CD8 /* SFCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06665FE154591C0003D2CD8 /* SFCViewController.m */; };
+		B0666602154591C0003D2CD8 /* SFCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0666600154591C0003D2CD8 /* SFCViewController.xib */; };
+		B066660A154591D7003D2CD8 /* SFCFlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0666609154591D7003D2CD8 /* SFCFlipView.m */; };
+		B066660C154597A2003D2CD8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B066660B154597A2003D2CD8 /* QuartzCore.framework */; };
+		B066660F1545B066003D2CD8 /* Segment.png in Resources */ = {isa = PBXBuildFile; fileRef = B066660E1545B066003D2CD8 /* Segment.png */; };
+		B06666111545B1C7003D2CD8 /* SegmentStack.png in Resources */ = {isa = PBXBuildFile; fileRef = B06666101545B1C7003D2CD8 /* SegmentStack.png */; };
+		B06666131545B725003D2CD8 /* SegmentGloss.png in Resources */ = {isa = PBXBuildFile; fileRef = B06666121545B725003D2CD8 /* SegmentGloss.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B06665E7154591C0003D2CD8 /* FlipClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06665EB154591C0003D2CD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B06665ED154591C0003D2CD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B06665EF154591C0003D2CD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B06665F3154591C0003D2CD8 /* FlipClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipClock-Info.plist"; sourceTree = "<group>"; };
+		B06665F5154591C0003D2CD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B06665F7154591C0003D2CD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B06665F9154591C0003D2CD8 /* FlipClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipClock-Prefix.pch"; sourceTree = "<group>"; };
+		B06665FA154591C0003D2CD8 /* SFCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFCAppDelegate.h; sourceTree = "<group>"; };
+		B06665FB154591C0003D2CD8 /* SFCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFCAppDelegate.m; sourceTree = "<group>"; };
+		B06665FD154591C0003D2CD8 /* SFCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFCViewController.h; sourceTree = "<group>"; };
+		B06665FE154591C0003D2CD8 /* SFCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFCViewController.m; sourceTree = "<group>"; };
+		B0666601154591C0003D2CD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SFCViewController.xib; sourceTree = "<group>"; };
+		B0666608154591D7003D2CD8 /* SFCFlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCFlipView.h; sourceTree = "<group>"; };
+		B0666609154591D7003D2CD8 /* SFCFlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCFlipView.m; sourceTree = "<group>"; };
+		B066660B154597A2003D2CD8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B066660E1545B066003D2CD8 /* Segment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Segment.png; sourceTree = "<group>"; };
+		B06666101545B1C7003D2CD8 /* SegmentStack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentStack.png; sourceTree = "<group>"; };
+		B06666121545B725003D2CD8 /* SegmentGloss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SegmentGloss.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B06665E4154591C0003D2CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B066660C154597A2003D2CD8 /* QuartzCore.framework in Frameworks */,
+				B06665EC154591C0003D2CD8 /* UIKit.framework in Frameworks */,
+				B06665EE154591C0003D2CD8 /* Foundation.framework in Frameworks */,
+				B06665F0154591C0003D2CD8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B06665DC154591BE003D2CD8 = {
+			isa = PBXGroup;
+			children = (
+				B066660B154597A2003D2CD8 /* QuartzCore.framework */,
+				B06665F1154591C0003D2CD8 /* FlipClock */,
+				B06665EA154591C0003D2CD8 /* Frameworks */,
+				B06665E8154591C0003D2CD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B06665E8154591C0003D2CD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B06665E7154591C0003D2CD8 /* FlipClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B06665EA154591C0003D2CD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B06665EB154591C0003D2CD8 /* UIKit.framework */,
+				B06665ED154591C0003D2CD8 /* Foundation.framework */,
+				B06665EF154591C0003D2CD8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B06665F1154591C0003D2CD8 /* FlipClock */ = {
+			isa = PBXGroup;
+			children = (
+				B06665FA154591C0003D2CD8 /* SFCAppDelegate.h */,
+				B06665FB154591C0003D2CD8 /* SFCAppDelegate.m */,
+				B06665FD154591C0003D2CD8 /* SFCViewController.h */,
+				B06665FE154591C0003D2CD8 /* SFCViewController.m */,
+				B0666600154591C0003D2CD8 /* SFCViewController.xib */,
+				B0666608154591D7003D2CD8 /* SFCFlipView.h */,
+				B0666609154591D7003D2CD8 /* SFCFlipView.m */,
+				B06665F2154591C0003D2CD8 /* Supporting Files */,
+			);
+			path = FlipClock;
+			sourceTree = "<group>";
+		};
+		B06665F2154591C0003D2CD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B066660D1545B066003D2CD8 /* Images */,
+				B06665F3154591C0003D2CD8 /* FlipClock-Info.plist */,
+				B06665F4154591C0003D2CD8 /* InfoPlist.strings */,
+				B06665F7154591C0003D2CD8 /* main.m */,
+				B06665F9154591C0003D2CD8 /* FlipClock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B066660D1545B066003D2CD8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B066660E1545B066003D2CD8 /* Segment.png */,
+				B06666121545B725003D2CD8 /* SegmentGloss.png */,
+				B06666101545B1C7003D2CD8 /* SegmentStack.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B06665E6154591C0003D2CD8 /* FlipClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0666605154591C0003D2CD8 /* Build configuration list for PBXNativeTarget "FlipClock" */;
+			buildPhases = (
+				B06665E3154591C0003D2CD8 /* Sources */,
+				B06665E4154591C0003D2CD8 /* Frameworks */,
+				B06665E5154591C0003D2CD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipClock;
+			productName = FlipClock;
+			productReference = B06665E7154591C0003D2CD8 /* FlipClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06665DE154591BE003D2CD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SFC;
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = B06665E1154591BE003D2CD8 /* Build configuration list for PBXProject "FlipClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B06665DC154591BE003D2CD8;
+			productRefGroup = B06665E8154591C0003D2CD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B06665E6154591C0003D2CD8 /* FlipClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B06665E5154591C0003D2CD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06665F6154591C0003D2CD8 /* InfoPlist.strings in Resources */,
+				B0666602154591C0003D2CD8 /* SFCViewController.xib in Resources */,
+				B066660F1545B066003D2CD8 /* Segment.png in Resources */,
+				B06666111545B1C7003D2CD8 /* SegmentStack.png in Resources */,
+				B06666131545B725003D2CD8 /* SegmentGloss.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B06665E3154591C0003D2CD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06665F8154591C0003D2CD8 /* main.m in Sources */,
+				B06665FC154591C0003D2CD8 /* SFCAppDelegate.m in Sources */,
+				B06665FF154591C0003D2CD8 /* SFCViewController.m in Sources */,
+				B066660A154591D7003D2CD8 /* SFCFlipView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B06665F4154591C0003D2CD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06665F5154591C0003D2CD8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0666600154591C0003D2CD8 /* SFCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0666601154591C0003D2CD8 /* en */,
+			);
+			name = SFCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0666603154591C0003D2CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0666604154591C0003D2CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0666606154591C0003D2CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipClock/FlipClock-Prefix.pch";
+				INFOPLIST_FILE = "FlipClock/FlipClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0666607154591C0003D2CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipClock/FlipClock-Prefix.pch";
+				INFOPLIST_FILE = "FlipClock/FlipClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B06665E1154591BE003D2CD8 /* Build configuration list for PBXProject "FlipClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0666603154591C0003D2CD8 /* Debug */,
+				B0666604154591C0003D2CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0666605154591C0003D2CD8 /* Build configuration list for PBXNativeTarget "FlipClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0666606154591C0003D2CD8 /* Debug */,
+				B0666607154591C0003D2CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06665DE154591BE003D2CD8 /* Project object */;
+}
